@@ -1,38 +1,115 @@
-title: Servv AI Support Documentation
-description: Learn how to create and manage events with Servv AI on WordPress and Shopify, and explore APIOps for Azure API Management.
-# baseurl: "/justthedocs"
-url: "https://vijaycoderisetechnologies.github.io"
+site:
+  title: Servv Support Documentation
+  description: Documentation for Servv, a powerful event management platform.
+  author: Coderise Technologies Inc.
+  url: https://support.servv.ai
+
+destination: _site
+baseurl: ""
+permalink: pretty
+
 theme: just-the-docs
-color_scheme: light
-
-# Enable search
-search_enabled: true
-
-# Search button in the header
-search_button: true
-
-# Auxiliary links in the header
-aux_links:
-  "Servv AI":
-    - "//servv.ai"
-  "APIOps Guide":
-    - "//azure.github.io/apiops/"
-
-# Footer content
-footer_content: "Built with Jekyll and Just the Docs. &copy; 2025 Vijay Coderise Technologies."
-
-# Enable heading anchors
-heading_anchors: true
-
-# Enable last edited timestamp
-last_edit_timestamp: true
-last_edit_time_format: "%b %d, %Y"
-
 
 # Navigation
-nav_sort: case_insensitive
-nav_external_links:
-  - title: Servv AI
-    url: https://servv.ai
-  - title: APIOps Guide
-    url: https://azure.github.io/apiops/
+nav:
+  - title: Home
+    url: /
+  - title: Setup your First Event
+    children:
+      - title: Events
+        children:
+          - title: Overview
+            url: /getting-started/event/
+          - title: Create Event
+            url: /getting-started/event/createevent/
+          - title: View Events
+            url: /getting-started/event/view/
+          - title: Event Settings
+            url: /getting-started/event/setting/
+          - title: Add Registrants
+            url: /getting-started/event/registrants/
+          - title: Delete Event
+            url: /getting-started/event/delete/
+          - title: Edit Event
+            url: /getting-started/event/edit/
+      - title: Bookings
+        url: /getting-started/booking/
+      - title: Filters
+        children:
+          - title: Overview
+            url: /getting-started/filter/
+          - title: Location Filter
+            url: /getting-started/filter/locationfilter/
+          - title: Language Filter
+            url: /getting-started/filter/languagefilter/
+          - title: Member Filter
+            url: /getting-started/filter/memberfilter/
+          - title: Category Filter
+            url: /getting-started/filter/categoryfilter/
+      - title: Integrations
+        children:
+          - title: Overview
+            url: /getting-started/integration/
+          - title: Email Integration
+            url: /getting-started/integration/email/
+          - title: Calendar Integration
+            url: /getting-started/integration/calendar/
+          - title: Zoom Integration
+            url: /getting-started/integration/zoom/
+          - title: Stripe Integration
+            url: /getting-started/integration/stripe/
+      - title: Notifications
+        url: /getting-started/template/
+      - title: Analytics
+        url: /getting-started/analytics/
+      - title: Settings
+        children:
+          - title: Overview
+            url: /getting-started/setting/
+          - title: General Setting
+            url: /getting-started/setting/general/
+          - title: Reminder
+            url: /getting-started/setting/reminder/
+          - title: Billing Plans
+            url: /getting-started/setting/billing/
+          - title: Widget
+            url: /getting-started/setting/widget/
+          - title: Widget Translations
+            url: /getting-started/setting/widgettranslations/
+  - title: Troubleshooting
+    children:
+      - title: FAQ
+        children:
+          - title: Plugin Troubleshooting
+            url: /getting-started/troubleshooting/faq/
+  - title: Latest Release
+    children:
+      - title: Release Notes
+        url: /changelogs/changelog/
+
+# Theme configuration
+just_the_docs:
+  logo: "/assets/logo.png"
+  favicon_ico: "/assets/images/favicon.png"
+  aux_links:
+    "GitHub Repository":
+      - "https://github.com/coderisetechnologiesinc/servvai-event-booking"
+  heading_anchors: true
+  footer_content: true
+
+# Markdown settings
+markdown: kramdown
+kramdown:
+  toc_levels: 2..3
+  parse_block_html: true
+
+# Plugins
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+
+# Additional CSS
+include:
+  - css/custom.css
+  - assets/styles/custom.css
