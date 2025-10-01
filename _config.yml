@@ -1,6 +1,6 @@
 title: Servv AI Support Documentation
 description: Learn how to create and manage events with Servv AI on WordPress and Shopify, and explore APIOps for Azure API Management.
-baseurl: "/justthedocs"
+# baseurl: "/justthedocs"
 url: "https://vijaycoderisetechnologies.github.io"
 theme: just-the-docs
 color_scheme: light
