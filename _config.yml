@@ -93,7 +93,7 @@ just_the_docs:
   favicon_ico: "/assets/images/favicon.png"
   aux_links:
     "GitHub Repository":
-      - "https://github.com/coderisetechnologiesinc/servvai-event-booking"
+      - "https://github.com/vijaycoderisetechnologies/justthedocs/tree/main"
   heading_anchors: true
   footer_content: true
 
