@@ -5,7 +5,6 @@ baseurl: "/justthedocs"
 url: "https://vijaycoderisetechnologies.github.io"
 
 # --- THEME SETUP ---
-theme: "just-the-docs"
 remote_theme: "pmarsceill/just-the-docs"
 
 # Logo settings
