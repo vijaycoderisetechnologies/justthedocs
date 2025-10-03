@@ -93,7 +93,7 @@ just_the_docs:
   favicon_ico: "/assets/images/favicon.png"
   aux_links:
     "GitHub Repository":
-      - "https://github.com/vijaycoderisetechnologies/justthedocs/tree/main"
+      - "https://github.com/vijaycoderisetechnologies/justthedocs/"
   heading_anchors: true
   footer_content: true
 
