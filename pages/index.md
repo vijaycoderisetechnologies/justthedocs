@@ -1,3 +1,7 @@
+---
+title: Home
+permalink: /
+---
 <img src="../assets/logo.png">
 
 # Welcome to Servv Support
