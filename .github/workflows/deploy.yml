@@ -22,10 +22,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          gem install bundler
-          bundle init
-          echo 'gem "jekyll"' >> Gemfile
-          echo 'gem "just-the-docs"' >> Gemfile
+          gem install bundler          
           bundle install
 
       - name: Build site
