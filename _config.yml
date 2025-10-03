@@ -15,3 +15,8 @@ plugins:
 # Optional: markdown, permalinks, etc.
 markdown: kramdown
 permalink: pretty
+
+aux_links:
+  "APIOps on GitHub":
+    - "//https://github.com/vijaycoderisetechnologies/justthedocs"
+aux_links_new_tab: true
