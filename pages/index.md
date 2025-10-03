@@ -2,6 +2,7 @@
 title: Home
 permalink: /
 ---
+<img src="/assets/images/logo.png">
 
 # Welcome to Servv Support
 <div style="display: flex; align-items: center; justify-content: space-between; gap: 40px; flex-wrap: wrap;">
