@@ -1,3 +1,8 @@
+---
+title: Home
+permalink: /
+nav_exclude: true
+---
 <img src="../assets/logo.png">
 
 # Welcome to Servv Support
