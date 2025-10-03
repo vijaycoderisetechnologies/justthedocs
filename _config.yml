@@ -1,5 +1,24 @@
-title: My Docs
-description: Documentation for Project X
-baseurl: "/justthedocs"        # use "/REPO-NAME" for project sites, or "" for user sites
+title: JustTheDocs
+description: Documentation site for JustTheDocs
+# Because this is a *project site*, baseurl must be your repo name (the subdirectory)
+baseurl: "/justthedocs"
 url: "https://vijaycoderisetechnologies.github.io"
-theme: minima      # simple built-in theme (see supported list below)
+
+# --- THEME SETUP ---
+theme: "just-the-docs"
+remote_theme: "pmarsceill/just-the-docs"
+
+# Logo settings
+logo: "/assets/images/logo.png"
+github_repo: "vijaycoderisetechnologies/justthedocs"
+show_download_button: false
+toc_level: 2
+
+# If you want to use plugins supported by GitHub Pages, include them
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Optional: markdown, permalinks, etc.
+markdown: kramdown
+permalink: pretty
